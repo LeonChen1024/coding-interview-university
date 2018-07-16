@@ -310,39 +310,185 @@ git push --force
 你并不需要这里所有的内容。你只需要  [一门用来面试的语言](#pick-one-language-for-the-interview).
 
 为什么要使用所有的语言实现一次?
-- 练习，练习，练习，直到我厌倦它，并且可以正确的完成它()
-Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+- 练习，练习，练习，直到我厌倦它，并且可以正确的完成它(有些有很多的边界情况和细节需要记住)
+- 在原始的情况下工作(在没有垃圾回收器的帮助下分配/释放内存(Python 除外))
+- 使用内置的类型这样获取在实际使用中使用内置工具的经验(而不是在生产中使用我自己的 linked list)
 
-I may not have time to do all of these for every subject, but I'll try.
+我可能没有时间对每一个科目都做到所有的这些，但是我会去尽力去尝试。
 
-You can see my code here:
+你可以在这里看到我的代码:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+你不需要记得每一个算法的内容。
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+在白板或者纸上写代码，不是在电脑上。用一些示例输入进行测试。然后在电脑上测试它。
 
-## Prerequisite Knowledge
+## 必备知识
 
-- [ ] **Learn C**
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+- [ ] **学习 C 语言**
+    - C 无处不在。你会在书里，讲座里，视频里看到使用C的例子，你在学习的时候的*每一个地方*。
+    - [ ] [C 程序设计语言(C Programming Language, Vol 2)](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+        - 这是一本简短的书，但是他会让你很好的处理 C 语言并且如果你适当的练习一下你会很快变得熟练。理解 C 会帮助你理解程序和内存是如何工作的。
+        - [问题的答案](https://github.com/lekkas/c-algorithms)
 
-- [ ] **How computers process a program:**
-    - [ ] [How does CPU execute program (video)](https://www.youtube.com/watch?v=42KTvGYQYnA)
-    - [ ] [Machine Code Instructions (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
+- [ ] **计算机如何处理程序**
+    - [ ] [CPU是如何处理程序的(视频)(How does CPU execute program (video))](https://www.youtube.com/watch?v=42KTvGYQYnA)
+    - [ ] [机器语言说明 (video)](https://www.youtube.com/watch?v=Mv2XQgpbTNE)
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## 算法复杂性/大O(Big-O) /渐近分析
 
+- 没什么可实现的
+- [ ] [哈佛CS50 - 渐近表示法(视频)(Harvard CS50 - Asymptotic Notation (video))](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [大O表示法(基础快速教程)(视频)(Big O Notations (general quick tutorial) (video))](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [大O符号(和Omega和Theta) - 最好的数学解释(视频)(Big O Notation (and Omega and Theta) - best mathematical explanation (video))](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] Skiena:
+    - [视频](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+    - [幻灯片](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
+- [ ] [算法复杂度分析的一个简单的介绍](http://discrete.gr/complexity/)
+- [ ] [增长阶数(Orders of Growth)(视频)](https://class.coursera.org/algorithmicthink1-004/lecture/59)
+- [ ] [渐近(视频)(Asymptotics)](https://class.coursera.org/algorithmicthink1-004/lecture/61)
+- [ ] [加州大学伯克利分校大O（视频）
+(UC Berkeley Big O)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [加州大学伯克利分校大Omega（视频）(UC Berkeley Big Omega)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
+- [ ] [平摊分析法（Amortized Analysis）（视频）](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [阐述“大O”（视频）(Illustrating "Big O")](https://class.coursera.org/algorithmicthink1-004/lecture/63)
+- [ ] 高级开发者(包括递归关系和主定理)：
+    - [计算的复杂度：第一章](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-1/)
+    - [计算的复杂度：第二章](https://www.topcoder.com/community/data-science/data-science-tutorials/computational-complexity-section-2/)
+- [ ] [速查表](http://bigocheatsheet.com/)
 
+    如果有些讲座太偏向于数学了，你可以看底部的数学视频来获取背景知识。
 
+## 数据结构
+
+- ### 数组
+    - 实现一个自动调整大小的 vector.
+    - [ ] 介绍:
+        - [Arrays (视频)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [加州大学伯克利分校CS61B - 线性和多点阵列(UC Berkeley CS61B - Linear and Multi-Dim Arrays) (视频)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [基础 Arrays (视频)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [多点(Multi-dim) (视频)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
+        - [动态 Arrays (视频)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [锯齿数组(Jagged Arrays) (视频)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [锯齿数组(Jagged Arrays)(视频)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [Resizing arrays (视频)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
+    - [ ] 实现一个动态数组(Implement a vector) (自动调整大小的动态数组):
+        - [ ] 练习使用数组和指针进行编码，并使用指针计算来跳转到某个索引位置而不是直接使用索引。
+        - [ ] 创建一个带有分配内存的原始数据类型数组
+            - 可以在实现里使用 int 数组，但不要使用它的功能
+            - 从16或者更大的数开始，记得要使用2的倍数 16，32，64，128
+        - [ ] size() - 元素的个数
+        - [ ] capacity() - number of items it can hold
+        - [ ] is_empty()
+        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+        - [ ] push(item)
+        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        - [ ] prepend(item) - can use insert above at index 0
+        - [ ] pop() - remove from end, return value
+        - [ ] delete(index) - delete item at index, shifting all trailing elements left
+        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
+        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [ ] resize(new_capacity) // private function
+            - when you reach capacity, resize to double the size
+            - when popping an item, if size is 1/4 of capacity, resize to half
+    - [ ] Time
+        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
+        - O(n) to insert/remove elsewhere
+    - [ ] Space
+        - contiguous in memory, so proximity helps performance
+        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+
+- ### Linked Lists
+    - [ ] Description:
+        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - not the whole video, just portions about Node struct and memory allocation.
+    - [ ] Linked List vs Arrays:
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] Gotcha: you need pointer to pointer knowledge:
+        (for when you pass a pointer to a function that may change the address where that pointer points)
+        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
+    - [ ] implement (I did with tail pointer & without):
+        - [ ] size() - returns number of data elements in list
+        - [ ] empty() - bool returns true if empty
+        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [ ] push_front(value) - adds an item to the front of the list
+        - [ ] pop_front() - remove front item and return its value
+        - [ ] push_back(value) - adds an item at the end
+        - [ ] pop_back() - removes end item and returns its value
+        - [ ] front() - get value of front item
+        - [ ] back() - get value of end item
+        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [ ] erase(index) - removes node at given index
+        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [ ] reverse() - reverses the list
+        - [ ] remove_value(value) - removes the first item in the list with this value
+    - [ ] Doubly-linked List
+        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - No need to implement
+
+- ### Stack
+    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Using Stacks Last-In First-Out (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
+    - [ ] Will not implement. Implementing with array is trivial.
+
+- ### Queue
+    - [ ] [Using Queues First-In First-Out(video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
+    - [ ] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
+    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
+    - [ ] Implement using linked-list, with tail pointer:
+        - enqueue(value) - adds value at position at tail
+        - dequeue() - returns value and removes least recently added element (front)
+        - empty()
+    - [ ] Implement using fixed-sized array:
+        - enqueue(value) - adds item at end of available storage
+        - dequeue() - returns value and removes least recently added element
+        - empty()
+        - full()
+    - [ ] Cost:
+        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
+            because you'd need the next to last element, causing a full traversal each dequeue
+        - enqueue: O(1) (amortized, linked list and array [probing])
+        - dequeue: O(1) (linked list and array)
+        - empty: O(1) (linked list and array)
+
+- ### Hash table
+    - [ ] Videos:
+        - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+        - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+        - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
+        - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
+
+    - [ ] Online Courses:
+        - [ ] [Understanding Hash Functions (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Understanding-hash-functions/149042/177126-4.html)
+        - [ ] [Using Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-hash-tables/149042/177127-4.html)
+        - [ ] [Supporting Hashing (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Supporting-hashing/149042/177128-4.html)
+        - [ ] [Language Support Hash Tables (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Language-support-hash-tables/149042/177129-4.html)
+        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
+        - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
+        - [ ] distributed hash tables:
+            - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
+            - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+
+    - [ ] implement with array using linear probing
+        - hash(k, m) - m is size of hash table
+        - add(key, value) - if key already exists, update value
+        - exists(key)
+        - get(key)
+        - remove(key)
+
+## More Knowledge
 
 
 
