@@ -1,4 +1,4 @@
-# 编程大学
+编程大学
 
 > 我起初创建这个的目的是作为一个记录成为一个软件工程师的学习主题的简短的 to-do 列表，但是它慢慢变成了一个你现在看到的一个庞大的列表。经过完成了这个学习计划，我作为一个软件开发工程师被 Amazon 聘用了！可能你不需要和我学习一样的内容。不管怎样，你需要的东西都在这了。
 
@@ -97,9 +97,26 @@ Involve collaborators early, but not too (at the 'sweet spot')<br>
 - [x] [白板编程(Whiteboarding)](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1) [中文译文](../../../OneDrive/Code/Way To Google/GitHubCodeInterview/Whitebording.md)
 - [x] [ 在编程面试中进行高效的白板编程(Effective Whiteboarding during Programming Interviews)](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/) [中文译文](../../../OneDrive/Code/Way To Google/GitHubCodeInterview/Effective-Whitebording-During-Programing-Interviews.md)
 - [x] [揭开技术招聘的秘密(Demystifying Tech Recruiting)](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] 攻破编程面试 集合1:
-    - [ ] [Gayle L McDowell - 攻破编程面试(视频)(Gayle L McDowell - Cracking The Coding Interview (video))](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-    - [ ] [和 Gayle Laakmann McDowell 一起攻破编程面试(Cracking the Coding Interview with Author Gayle Laakmann McDowell (video))](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [x] 攻破编程面试 集合1:
+    - [x] [Gayle L McDowell - 攻破编程面试(视频)(Gayle L McDowell - Cracking The Coding Interview (video))](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
+
+      - 简历要简洁
+
+      - 如何实现,什么时候去实现    Linked Lists, Stacks , Queues , Trees , Tries , Graphs , Vectors , Heaps , **Hashtables**
+      - 如何实现,空间和时间复杂度  Quick Sort, Merge Sort , **Tree Insert / Find** , Binary Search , Breadth-First Search , **Depth-First Search**
+      - 要明白定义以及如何编写   Threading , **System Design & Scalability** , Memory Management , **Recursion** , Probability + Combinatorics .  **Bit Manipulation**
+      -  对问题的需求要问明确,比如让你设计一支笔,那么是为谁设计的,大人?小孩?在哪里使用?工作,学校?
+      -  理解用户的痛点,再根据痛点设计  
+      - 按步解题
+      - 有条理的编程,不要追求速度 
+      - 测试你写的代码,检查异常判断情况
+      - 代码整洁 使用函数,使用数据结构(如果很有用的话可以定义它) 简洁可读性高
+      - 不要自己做任何的假设 
+
+    - [x] [和 Gayle Laakmann McDowell 一起攻破编程面试(Cracking the Coding Interview with Author Gayle Laakmann McDowell (video))](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+
+      - 问清楚问题
+      - 做好检查,跑几个测试用例,做上对应的注释
 - [ ] 如何获得4个巨头公司的工作:
     - [ ] [如何获得4个巨头公司的工作 - Amazon ,Facebook,Google & Microsoft (视频)(How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video))](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 - [ ] 预备课程:
