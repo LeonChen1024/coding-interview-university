@@ -117,8 +117,8 @@ Involve collaborators early, but not too (at the 'sweet spot')<br>
 
       - 问清楚问题
       - 做好检查,跑几个测试用例,做上对应的注释
-- [ ] 如何获得4个巨头公司的工作:
-    - [ ] [如何获得4个巨头公司的工作 - Amazon ,Facebook,Google & Microsoft (视频)(How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video))](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+- [x] 如何获得4个巨头公司的工作:
+    - [x] [如何获得4个巨头公司的工作 - Amazon ,Facebook,Google & Microsoft (视频)(How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video))](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 - [ ] 预备课程:
     - [ ] [软件工程师面试出炉(付费课程)(Software Engineer Interview Unleashed (paid course))](https://www.udemy.com/software-engineer-interview-unleashed):
         - 学习如何让你自己准备好接受前 Google 面试官的软件工程师面试。
@@ -154,10 +154,11 @@ Involve collaborators early, but not too (at the 'sweet spot')<br>
 
 ### 面试准备
 
-- [ ] [揭秘编程面试:找到你下一份工作的秘密，第2版(Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition)](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
+- [x] [揭秘编程面试:找到你下一份工作的秘密，第2版(Programming Interviews Exposed: Secrets to Landing Your Next Job, 2nd Edition)](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047012167X.html)
     - 使用 C++ 和 Java
     - 这对于攻破编程面试是一个很好的热身
     - 不会太困难，大部分的问题可能会比你面试中的要更简单(从我看到的内容来看)
+    - 这是一个全方位的复习,并且对很多知识点有一个很好的介绍
 - [ ] [攻破编程面试，第2版(Cracking the Coding Interview, 6th Edition)](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - 使用 Java
 
